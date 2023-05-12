@@ -1,0 +1,91 @@
+// .about {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 80vh;
+//   }
+  
+//   h2 {
+//     font-size: 3rem;
+//     text-align: center;
+//     margin-bottom: 2rem;
+//   }
+  
+//   p {
+//     font-size: 1.2rem;
+//     line-height: 1.5;
+//     text-align: justify;
+//     margin-bottom: 1rem;
+//   }
+  
+//   .p1 {
+//     font-weight: bold;
+//   }
+  
+//   .p2 {
+//     font-style: italic;
+//   }
+  
+//   .p3 {
+//     text-transform: uppercase;
+//     letter-spacing: 2px;
+//   }
+  
+//   .p4 {
+//     font-size: 1rem;
+//     text-align: right;
+//   }
+  
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://diariodesign.com/wp-content/uploads/2022/01/optica-de-estilo-victoriano-diariodesign.jpg);
+   background-size:cover;
+  
+    .about-box {
+      background-color: #f8f8f8;
+      border-radius: 5px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      width: 80%;
+  
+      .about-title {
+        font-size: 36px;
+        margin-bottom: 20px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+  
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        text-align: justify;
+  
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+  
+      .p1 {
+        font-weight: bold;
+      }
+  
+      .p2 {
+        font-style: italic;
+      }
+  
+      .p3 {
+        color: #666;
+      }
+  
+      .p4 {
+        font-weight: bold;
+        text-align: center;
+      }
+    }
+  }
+  

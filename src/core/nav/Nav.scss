@@ -1,0 +1,60 @@
+
+  //@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+  //@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@500&display=swap');
+  
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #626262;
+  color: #fff;
+  padding: 10px;
+}
+
+.nav h2 {
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 0.5%;
+  color: black;
+  
+  
+}
+
+.nav-li {
+  margin-right: 20px;
+  list-style: none;
+  color: #ffffff;
+  
+}
+
+.nav-li:last-child {
+  margin-right: 0;
+  color: #faf8f8;
+  
+  text-decoration: none;
+}
+.nav-li1{
+  color: #faf8f8;
+  margin-left: 8px;
+  text-decoration: none;
+}
+.logo{
+  margin-left: 10px;
+  //font-family: 'Gruppo', cursive;
+   white-space:break-spaces;
+  //font-family: 'Megrim', cursive;
+  //font-family: 'Bungee Shade', cursive;
+  letter-spacing: 3px;
+  font-family: 'Hepta Slab', serif;
+  
+}
