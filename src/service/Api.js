@@ -13,6 +13,6 @@ export const APIHeaders = {
 };
 
 export const API = axios.create({
-    baseURL: "mongodb+srv://everduim:everduim@cluster0.cs594tg.mongodb.net/?retryWrites=true&w=majority",
+    baseURL: "http://localhost:3000",
     headers: APIHeaders,
 })
