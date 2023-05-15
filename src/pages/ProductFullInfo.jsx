@@ -16,9 +16,9 @@ const productFullInfo = () => {
          getInfoById()
     },[])
   return (
-    <>
+    <div>
 
-     <div className='.product-fullinfo-container '>
+     <div className='product-fullinfo-container '>
         {product ? (
             <div className='product-fullinfo-box ' >
                 <h2 className='name-product'>{product.product}</h2>
@@ -33,7 +33,7 @@ const productFullInfo = () => {
 
         ): null}
     </div> 
-    </>
+    </div>
   )
 }
 

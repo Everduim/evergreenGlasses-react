@@ -21,6 +21,25 @@ const Products = () => {
     getProducts();
   }, []);
 
+  const handleRatingChange = (productId, ratingValue) => {
+    // Realiza una acción para guardar la puntuación en tu base de datos o donde corresponda
+    // Aquí solo actualizaremos el estado local para demostrar cómo se puede hacer
+    setProducts(prevProducts =>
+      prevProducts.map(product =>
+        product.id === productId ? { ...product, rating: ratingValue } : product
+      )
+    );
+  };
+
+
+
+
+
+
+
+
+
+
   return (
     <>
           <div className="products-container">
@@ -41,7 +60,19 @@ const Products = () => {
               <p className="product-info">{product.info}</p>
               
               <div className="product-ratings">
-                <p><Rating name="half-rating" defaultValue={2.5} precision={0.5} /></p>
+                <p>
+                  {/* <Rating name="half-rating" defaultValue={2.5} precision={0.5} /> */}
+                  <Rating
+                  name={`rating-${product.id}`}
+                  value={product.rating || 0}
+                  precision={0.5}
+                  onChange={(event, newValue) =>
+                    handleRatingChange(product.id, newValue)
+                  }
+                />
+                  
+                  
+                  </p>
               </div>
             </div>
           </figure>

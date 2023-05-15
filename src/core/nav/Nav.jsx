@@ -46,7 +46,7 @@ const Nav = () => {
             </>
 
 )}
-            
+
 
         
             {/* {gender != undefined && (<li>Wellcome{gender}</li>)}  */}

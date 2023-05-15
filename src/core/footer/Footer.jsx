@@ -3,7 +3,7 @@ import "../footer/Footer.scss"
 const Footer = () => {
   return (
     <footer className="footer">
-    <p>© 2023 by Eyewear. Proudly created with React.</p>
+    <p>© 2023 by Everduim. Proudly created with React.</p>
   </footer>
   )
 }

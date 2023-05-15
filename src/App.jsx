@@ -9,7 +9,7 @@ import About from './pages/About'
 import Products from "./pages/Products"
 import ProductFullInfo from './pages/ProductFullInfo'
 import Register from "./pages/Register"
-import Login from "./pages/Login"
+import Login from './pages/Login'
 import Contact from './pages/Contact'
 import { JwtContext } from './contex/jwtContext'
 import { RequireAuth } from './components/RequireAuth'
