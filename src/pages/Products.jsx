@@ -22,8 +22,7 @@ const Products = () => {
   }, []);
 
   const handleRatingChange = (productId, ratingValue) => {
-    // Realiza una acción para guardar la puntuación en tu base de datos o donde corresponda
-    // Aquí solo actualizaremos el estado local para demostrar cómo se puede hacer
+ 
     setProducts(prevProducts =>
       prevProducts.map(product =>
         product.id === productId ? { ...product, rating: ratingValue } : product
